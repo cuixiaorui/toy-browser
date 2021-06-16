@@ -1,4 +1,4 @@
-const Headers = require("../Headers");
+const Headers = require("../src/Headers");
 describe("Headers", () => {
   describe("get", () => {
     it("get", () => {

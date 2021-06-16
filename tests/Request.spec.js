@@ -1,5 +1,5 @@
-const Request = require("../Request.js");
-const Headers = require("../Headers.js");
+const Request = require("../src/Request.js");
+const Headers = require("../src/Headers.js");
 
 describe("Request", () => {
   it("toString", async () => {
