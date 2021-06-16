@@ -1,6 +1,5 @@
 module.exports = class Headers {
   constructor() {
-    //     this.map = new Map();
     this.map = {};
   }
 
@@ -19,7 +18,6 @@ module.exports = class Headers {
 
 
   get(name) {
-    //     return this.map.get(name.toLowerCase());
     return this.map[name.toLowerCase()];
   }
 };
